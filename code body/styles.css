@@ -1,0 +1,172 @@
+.heading {
+ display: flex;
+ justify-content: space-between;
+}
+
+.second-div {
+    text-align: center;
+}
+
+.fimage {
+    width: 1150px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.h1-About {
+    font-weight: 600;
+    font-size: 70px;
+    margin: 130px 0px 40px 30px;
+}
+
+.figfirst {
+    text-align: inherit;
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(0, 158, 220);
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+}
+
+button:hover {
+    color: white;
+}
+
+.HOME-section > h2 {
+    font-size: 35px;
+}
+
+fieldset {
+    width: 230px;
+    height:25px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+}
+
+.seminer {
+    width: 60px;
+    height: auto;
+    margin-left: 30px;
+}
+
+h3 {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 410px;
+    font-family: helvetica;
+    font-weight: 3;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+    font-family: serif;
+    font-weight: 8;
+}
+
+.Upcoming {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Upcoming > div > img {
+    width: 370px;
+    height: auto;
+}
+
+.OurPast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.OurPast > div > img {
+    width: 570px;
+    height: auto;
+}
+
+.foot {
+    background-color: gray;
+    width: 1150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Aboutimg {
+    width: 900px;
+    height: auto;
+}
+
+footer {
+    position: relative;
+    display: inline-block;
+}
+
+.footerimg {
+    width: 1150px;
+    height: 400px;
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(248, 187, 205, 0.5);
+}
+
+.footer-text {
+    position: absolute;
+    color: black;
+    top:30% ;
+    left: 20%;
+   padding: 10px;
+   font-size: 50px;
+}
+
+.footer-button {
+    position: absolute;
+    top:70%;
+    left:45%;
+    background-color: black;
+    color: white;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.Aboutsec {
+    text-align: center;
+}
+
+.Aboutfig > p {
+    font-size: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: start;
+}
+
+.Aboutfig > h1 {
+    margin-right: 580px;
+    font-size: 40px;
+}
